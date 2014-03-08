@@ -1,24 +1,33 @@
 /*HEADER, FOOTER, NAV STYLES
 ==============================*/
 footer {
-	background-color: #FFF;
+	background-color: #A67FB9;
+	background-image: url('../img/purple-bg-2x.png');
 	height: 150px;
 }
 
 /*PAGE STYLES
 ==============================*/
+body {
+	font-family: 'Lato', sans-serif;
+}
 .intro,
 .desc1,
 .desc2,
 .contact {
 	height: 550px;
 }
-.intro {
-	background-color: #67C2E5;
-	background-image: url('../img/blue-bg.png');
+.intro,
+.like,
+footer {
 	color: #FFF;
 }
+.intro {
+	background-color: #68A4CF;
+	background-image: url('../img/blue-bg-2x.png');
+}
 .intro h1 {
+	font-family: 'Varela Round', sans-serif;
 	margin: 0;
 }
 .desc1 {
@@ -28,9 +37,8 @@ footer {
 	background-color: #FFF;
 }
 .like {
-	background-color: #27C2AD;
-	background-image: url('../img/green-bg.png');
-	color: #FFF;
+	background-color: #61BFB5;
+	background-image: url('../img/green-bg-2x.png');
 	height: 400px;
 }
 .contact {
