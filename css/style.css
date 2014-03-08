@@ -1,0 +1,38 @@
+/*HEADER, FOOTER, NAV STYLES
+==============================*/
+footer {
+	background-color: #FFF;
+	height: 150px;
+}
+
+/*PAGE STYLES
+==============================*/
+.intro,
+.desc1,
+.desc2,
+.contact {
+	height: 550px;
+}
+.intro {
+	background-color: #67C2E5;
+	background-image: url('../img/blue-bg.png');
+	color: #FFF;
+}
+.intro h1 {
+	margin: 0;
+}
+.desc1 {
+	background-color: #F4F4F4;
+}
+.desc2 {
+	background-color: #FFF;
+}
+.like {
+	background-color: #27C2AD;
+	background-image: url('../img/green-bg.png');
+	color: #FFF;
+	height: 400px;
+}
+.contact {
+	background-color: #F4F4F4;
+}
